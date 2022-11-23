@@ -73,18 +73,18 @@
                     
                 </div>
                 <div class="col-md-6">
-                    <form netlify action="" id="form">
+                    <form netlify id="form" method="post">
                         <div class="my-4">
                             <label for="nombre">NOMBRE COMPLETO *</label>
-                            <input type="text" class="form-control" id="nombre" required>
+                            <input type="text" class="form-control" name="nombre" required>
                         </div>
                         <div class="my-4">
-                            <label for="corroe">EMAIL *</label>
-                            <input type="email" class="form-control" id="corroe" required>
+                            <label for="correo">EMAIL *</label>
+                            <input type="email" class="form-control" name="coreos" required>
                         </div>
                         <div class="my-4">
                             <label for="comentario"> COMENTARIO *</label>
-                            <textarea id="comentario" rows="4" class="form-control" required></textarea>
+                            <textarea name="comentario" rows="4" class="form-control" required></textarea>
                         </div>
                         <button type="submit">Enviar</button>
                     </form>
